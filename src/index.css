@@ -381,10 +381,14 @@ p {
     padding: 1.5rem;
   }
   .name {
-    font-size: 1.8rem;
+    font-size: 1.35rem;
+    letter-spacing: 2px;
   }
   /* Mobile: swap to short prompt, keep pill theme, reduce font */
   .terminal-prompt--full  { display: none; }
   .terminal-prompt--short { display: inline; }
-  .tagline { font-size: 0.7rem; }
+  .tagline { 
+    font-size: 0.65rem; 
+    white-space: nowrap;
+  }
 }
