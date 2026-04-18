@@ -214,12 +214,14 @@ body {
   z-index: 10;
   overflow: hidden;
   display: flex;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: scroll 30s linear infinite;
+  animation: scroll 60s linear infinite;
   will-change: transform;
 }
 
@@ -388,7 +390,8 @@ p {
   .terminal-prompt--full  { display: none; }
   .terminal-prompt--short { display: inline; }
   .tagline { 
-    font-size: 0.65rem; 
+    font-size: 0.55rem; 
     white-space: nowrap;
+    overflow: visible;
   }
 }

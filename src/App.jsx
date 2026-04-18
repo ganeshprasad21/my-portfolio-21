@@ -39,7 +39,7 @@ function App() {
         </nav>
 
         <section id="about" className="timeline-section">
-          <h3>THE ARCHITECTURE OF A CAREER</h3>
+          <h3>A LAYERED PROGRESSION</h3>
           
           <div className="timeline-node">
             <div className="node-header">
@@ -71,10 +71,10 @@ function App() {
           <div className="timeline-node">
             <div className="node-header">
               <span className="node-layer">LAYER 03</span>
-              <h4>DevSecOps & Tools Engineer</h4>
+              <h4>DevSecOps & AI Infrastructure</h4>
             </div>
-            <p>Target: K3s, FastAPI, React, AI & MCP Infrastructure.</p>
-            <p>This is my current root execution state. I architect multi-node, multi-master K3s/Kubernetes clusters and enforce Zero-Trust SecOps pipelines. By synthesizing React frontends, FastAPI backends, and AI MCP (Model Context Protocol) integrations, I build autonomous systems that command and scale the platform.</p>
+            <p>Target: K3s, AI Infra, MCP Servers & n8n Workflows.</p>
+            <p>This is my current root execution state. I architect multi-node K3s clusters and enforce Zero-Trust SecOps pipelines. By synthesizing AI infrastructure, MCP (Model Context Protocol) servers, and autonomous n8n workflows, I build self-healing systems that command and scale the platform without human intervention.</p>
           </div>
         </section>
 
